@@ -12,7 +12,7 @@ def read_input():
         pattern = input().rstrip()
         text = input().rstrip()
     elif choice == 'F':
-        filename = 'tests/' + input().strip()
+        filename = 'tests/06'
         with open(filename, 'r') as test:
             pattern = test.readline().rstrip()
             text = test.readline().rstrip()
